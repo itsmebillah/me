@@ -94,3 +94,71 @@ footer {
   text-align: center;
   opacity: 0.7;
 }
+
+/* SKILLS */
+.skills {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skill {
+  margin-bottom: 18px;
+}
+
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.95rem;
+}
+
+.bar {
+  height: 10px;
+  background: #020617;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.bar span {
+  height: 100%;
+  display: block;
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+}
+
+/* CERTIFICATES */
+.certificates {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.certificates h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.cert {
+  background: #020617;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
+}
+
+.cert a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
