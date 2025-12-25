@@ -1,4 +1,4 @@
-const GAS_URL = 'PASTE_YOUR_GAS_URL';
+const GAS_URL = "https://script.google.com/macros/s/AKfycbwM263dREny57y2nXBCrAvgesWLdITWPHJLjqv2NmALXkCMIK016bZ819bMwzX0hn4t2g/exec";
 
 document.addEventListener('DOMContentLoaded', loadProjects);
 
